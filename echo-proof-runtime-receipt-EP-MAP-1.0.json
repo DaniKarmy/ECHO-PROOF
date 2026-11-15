@@ -1,0 +1,1662 @@
+{
+  "artifact": "ECHO PROOF machine-readable Translation Receipt",
+  "mapping": {
+    "version": "EP-MAP-1.0",
+    "width": 1920,
+    "height": 1440,
+    "cols": 6,
+    "rows": 4,
+    "cellWidth": 320,
+    "cellHeight": 360,
+    "lumaThreshold": 128,
+    "freqBase": 220,
+    "freqSpan": 660,
+    "panByCol": [
+      -0.75,
+      -0.45,
+      -0.15,
+      0.15,
+      0.45,
+      0.75
+    ],
+    "toneMs": 180,
+    "gapMs": 40,
+    "roi": {
+      "x0": 1440,
+      "y0": 360,
+      "x1": 3360,
+      "y1": 1800
+    }
+  },
+  "source": {
+    "A": {
+      "date": "2026-06-18",
+      "frame": 426,
+      "file": "krasheninnikov_2026-06-18_ROI.png"
+    },
+    "B": {
+      "date": "2026-06-30",
+      "frame": 439,
+      "file": "krasheninnikov_2026-06-30_ROI.png"
+    }
+  },
+  "sourceHashesSha256": {
+    "A": "79b493af63b00c1a915355598eb943822f5b44205bb33c328ae2971a037d0bee",
+    "B": "14be7ef6b07e4efec382782ccfaf7f1472b213f9b1a2485080887f01ca27aafa"
+  },
+  "interpretationBoundary": "p is display-brightness density in the NASA visualization; not lava probability, radiance, temperature, backscatter, or geologic classification.",
+  "A": [
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 1,
+      "scanIndex": 1,
+      "cellBoundsRoi": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 320,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 23114,
+      "totalPixelCount": 115200,
+      "p": 0.2006423611111111,
+      "freq": 352.4239583333333,
+      "pan": -0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 2,
+      "scanIndex": 2,
+      "cellBoundsRoi": {
+        "x0": 320,
+        "y0": 0,
+        "x1": 640,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 26936,
+      "totalPixelCount": 115200,
+      "p": 0.23381944444444444,
+      "freq": 374.3208333333333,
+      "pan": -0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 3,
+      "scanIndex": 3,
+      "cellBoundsRoi": {
+        "x0": 640,
+        "y0": 0,
+        "x1": 960,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 33772,
+      "totalPixelCount": 115200,
+      "p": 0.2931597222222222,
+      "freq": 413.48541666666665,
+      "pan": -0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 4,
+      "scanIndex": 4,
+      "cellBoundsRoi": {
+        "x0": 960,
+        "y0": 0,
+        "x1": 1280,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 38640,
+      "totalPixelCount": 115200,
+      "p": 0.33541666666666664,
+      "freq": 441.375,
+      "pan": 0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 5,
+      "scanIndex": 5,
+      "cellBoundsRoi": {
+        "x0": 1280,
+        "y0": 0,
+        "x1": 1600,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 51105,
+      "totalPixelCount": 115200,
+      "p": 0.44361979166666665,
+      "freq": 512.7890625,
+      "pan": 0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 6,
+      "scanIndex": 6,
+      "cellBoundsRoi": {
+        "x0": 1600,
+        "y0": 0,
+        "x1": 1920,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 28216,
+      "totalPixelCount": 115200,
+      "p": 0.24493055555555557,
+      "freq": 381.6541666666667,
+      "pan": 0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 1,
+      "scanIndex": 7,
+      "cellBoundsRoi": {
+        "x0": 0,
+        "y0": 360,
+        "x1": 320,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 1430,
+      "totalPixelCount": 115200,
+      "p": 0.012413194444444444,
+      "freq": 228.19270833333334,
+      "pan": -0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 2,
+      "scanIndex": 8,
+      "cellBoundsRoi": {
+        "x0": 320,
+        "y0": 360,
+        "x1": 640,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 18633,
+      "totalPixelCount": 115200,
+      "p": 0.16174479166666667,
+      "freq": 326.7515625,
+      "pan": -0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 3,
+      "scanIndex": 9,
+      "cellBoundsRoi": {
+        "x0": 640,
+        "y0": 360,
+        "x1": 960,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 36856,
+      "totalPixelCount": 115200,
+      "p": 0.31993055555555555,
+      "freq": 431.1541666666667,
+      "pan": -0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 4,
+      "scanIndex": 10,
+      "cellBoundsRoi": {
+        "x0": 960,
+        "y0": 360,
+        "x1": 1280,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 21575,
+      "totalPixelCount": 115200,
+      "p": 0.1872829861111111,
+      "freq": 343.6067708333333,
+      "pan": 0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 5,
+      "scanIndex": 11,
+      "cellBoundsRoi": {
+        "x0": 1280,
+        "y0": 360,
+        "x1": 1600,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 21447,
+      "totalPixelCount": 115200,
+      "p": 0.186171875,
+      "freq": 342.8734375,
+      "pan": 0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 6,
+      "scanIndex": 12,
+      "cellBoundsRoi": {
+        "x0": 1600,
+        "y0": 360,
+        "x1": 1920,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 14885,
+      "totalPixelCount": 115200,
+      "p": 0.12921006944444444,
+      "freq": 305.2786458333333,
+      "pan": 0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 1,
+      "scanIndex": 13,
+      "cellBoundsRoi": {
+        "x0": 0,
+        "y0": 720,
+        "x1": 320,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 539,
+      "totalPixelCount": 115200,
+      "p": 0.004678819444444445,
+      "freq": 223.08802083333333,
+      "pan": -0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 2,
+      "scanIndex": 14,
+      "cellBoundsRoi": {
+        "x0": 320,
+        "y0": 720,
+        "x1": 640,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 6549,
+      "totalPixelCount": 115200,
+      "p": 0.05684895833333333,
+      "freq": 257.5203125,
+      "pan": -0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 3,
+      "scanIndex": 15,
+      "cellBoundsRoi": {
+        "x0": 640,
+        "y0": 720,
+        "x1": 960,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 43810,
+      "totalPixelCount": 115200,
+      "p": 0.3802951388888889,
+      "freq": 470.99479166666663,
+      "pan": -0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 4,
+      "scanIndex": 16,
+      "cellBoundsRoi": {
+        "x0": 960,
+        "y0": 720,
+        "x1": 1280,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 47590,
+      "totalPixelCount": 115200,
+      "p": 0.4131076388888889,
+      "freq": 492.6510416666667,
+      "pan": 0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 5,
+      "scanIndex": 17,
+      "cellBoundsRoi": {
+        "x0": 1280,
+        "y0": 720,
+        "x1": 1600,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 26771,
+      "totalPixelCount": 115200,
+      "p": 0.23238715277777777,
+      "freq": 373.3755208333333,
+      "pan": 0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 6,
+      "scanIndex": 18,
+      "cellBoundsRoi": {
+        "x0": 1600,
+        "y0": 720,
+        "x1": 1920,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 16371,
+      "totalPixelCount": 115200,
+      "p": 0.142109375,
+      "freq": 313.7921875,
+      "pan": 0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 1,
+      "scanIndex": 19,
+      "cellBoundsRoi": {
+        "x0": 0,
+        "y0": 1080,
+        "x1": 320,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 125,
+      "totalPixelCount": 115200,
+      "p": 0.0010850694444444445,
+      "freq": 220.71614583333334,
+      "pan": -0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 2,
+      "scanIndex": 20,
+      "cellBoundsRoi": {
+        "x0": 320,
+        "y0": 1080,
+        "x1": 640,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 4268,
+      "totalPixelCount": 115200,
+      "p": 0.03704861111111111,
+      "freq": 244.45208333333332,
+      "pan": -0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 3,
+      "scanIndex": 21,
+      "cellBoundsRoi": {
+        "x0": 640,
+        "y0": 1080,
+        "x1": 960,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 19578,
+      "totalPixelCount": 115200,
+      "p": 0.16994791666666667,
+      "freq": 332.165625,
+      "pan": -0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 4,
+      "scanIndex": 22,
+      "cellBoundsRoi": {
+        "x0": 960,
+        "y0": 1080,
+        "x1": 1280,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 18474,
+      "totalPixelCount": 115200,
+      "p": 0.16036458333333334,
+      "freq": 325.840625,
+      "pan": 0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 5,
+      "scanIndex": 23,
+      "cellBoundsRoi": {
+        "x0": 1280,
+        "y0": 1080,
+        "x1": 1600,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 50483,
+      "totalPixelCount": 115200,
+      "p": 0.4382204861111111,
+      "freq": 509.2255208333333,
+      "pan": 0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-18_ROI.png",
+      "displayedDate": "2026-06-18",
+      "frameIndex0Based": 426,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 6,
+      "scanIndex": 24,
+      "cellBoundsRoi": {
+        "x0": 1600,
+        "y0": 1080,
+        "x1": 1920,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 5316,
+      "totalPixelCount": 115200,
+      "p": 0.04614583333333333,
+      "freq": 250.45625,
+      "pan": 0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    }
+  ],
+  "B": [
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 1,
+      "scanIndex": 1,
+      "cellBoundsRoi": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 320,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 24111,
+      "totalPixelCount": 115200,
+      "p": 0.209296875,
+      "freq": 358.13593749999995,
+      "pan": -0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 2,
+      "scanIndex": 2,
+      "cellBoundsRoi": {
+        "x0": 320,
+        "y0": 0,
+        "x1": 640,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 30259,
+      "totalPixelCount": 115200,
+      "p": 0.26266493055555556,
+      "freq": 393.3588541666667,
+      "pan": -0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 3,
+      "scanIndex": 3,
+      "cellBoundsRoi": {
+        "x0": 640,
+        "y0": 0,
+        "x1": 960,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 40699,
+      "totalPixelCount": 115200,
+      "p": 0.3532899305555556,
+      "freq": 453.1713541666667,
+      "pan": -0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 4,
+      "scanIndex": 4,
+      "cellBoundsRoi": {
+        "x0": 960,
+        "y0": 0,
+        "x1": 1280,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 43450,
+      "totalPixelCount": 115200,
+      "p": 0.3771701388888889,
+      "freq": 468.93229166666663,
+      "pan": 0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 5,
+      "scanIndex": 5,
+      "cellBoundsRoi": {
+        "x0": 1280,
+        "y0": 0,
+        "x1": 1600,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 53470,
+      "totalPixelCount": 115200,
+      "p": 0.46414930555555556,
+      "freq": 526.3385416666667,
+      "pan": 0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 1,
+      "col": 6,
+      "scanIndex": 6,
+      "cellBoundsRoi": {
+        "x0": 1600,
+        "y0": 0,
+        "x1": 1920,
+        "y1": 360
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 30229,
+      "totalPixelCount": 115200,
+      "p": 0.2624045138888889,
+      "freq": 393.1869791666667,
+      "pan": 0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 1,
+      "scanIndex": 7,
+      "cellBoundsRoi": {
+        "x0": 0,
+        "y0": 360,
+        "x1": 320,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 1428,
+      "totalPixelCount": 115200,
+      "p": 0.012395833333333333,
+      "freq": 228.18125,
+      "pan": -0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 2,
+      "scanIndex": 8,
+      "cellBoundsRoi": {
+        "x0": 320,
+        "y0": 360,
+        "x1": 640,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 18416,
+      "totalPixelCount": 115200,
+      "p": 0.15986111111111112,
+      "freq": 325.5083333333333,
+      "pan": -0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 3,
+      "scanIndex": 9,
+      "cellBoundsRoi": {
+        "x0": 640,
+        "y0": 360,
+        "x1": 960,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 36563,
+      "totalPixelCount": 115200,
+      "p": 0.3173871527777778,
+      "freq": 429.47552083333335,
+      "pan": -0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 4,
+      "scanIndex": 10,
+      "cellBoundsRoi": {
+        "x0": 960,
+        "y0": 360,
+        "x1": 1280,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 24398,
+      "totalPixelCount": 115200,
+      "p": 0.21178819444444444,
+      "freq": 359.78020833333335,
+      "pan": 0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 5,
+      "scanIndex": 11,
+      "cellBoundsRoi": {
+        "x0": 1280,
+        "y0": 360,
+        "x1": 1600,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 23723,
+      "totalPixelCount": 115200,
+      "p": 0.20592881944444444,
+      "freq": 355.91302083333335,
+      "pan": 0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 2,
+      "col": 6,
+      "scanIndex": 12,
+      "cellBoundsRoi": {
+        "x0": 1600,
+        "y0": 360,
+        "x1": 1920,
+        "y1": 720
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 16410,
+      "totalPixelCount": 115200,
+      "p": 0.14244791666666667,
+      "freq": 314.015625,
+      "pan": 0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 1,
+      "scanIndex": 13,
+      "cellBoundsRoi": {
+        "x0": 0,
+        "y0": 720,
+        "x1": 320,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 562,
+      "totalPixelCount": 115200,
+      "p": 0.004878472222222222,
+      "freq": 223.21979166666668,
+      "pan": -0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 2,
+      "scanIndex": 14,
+      "cellBoundsRoi": {
+        "x0": 320,
+        "y0": 720,
+        "x1": 640,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 6852,
+      "totalPixelCount": 115200,
+      "p": 0.059479166666666666,
+      "freq": 259.25625,
+      "pan": -0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 3,
+      "scanIndex": 15,
+      "cellBoundsRoi": {
+        "x0": 640,
+        "y0": 720,
+        "x1": 960,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 44987,
+      "totalPixelCount": 115200,
+      "p": 0.3905121527777778,
+      "freq": 477.73802083333334,
+      "pan": -0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 4,
+      "scanIndex": 16,
+      "cellBoundsRoi": {
+        "x0": 960,
+        "y0": 720,
+        "x1": 1280,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 49154,
+      "totalPixelCount": 115200,
+      "p": 0.42668402777777775,
+      "freq": 501.6114583333333,
+      "pan": 0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 5,
+      "scanIndex": 17,
+      "cellBoundsRoi": {
+        "x0": 1280,
+        "y0": 720,
+        "x1": 1600,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 28272,
+      "totalPixelCount": 115200,
+      "p": 0.24541666666666667,
+      "freq": 381.975,
+      "pan": 0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 3,
+      "col": 6,
+      "scanIndex": 18,
+      "cellBoundsRoi": {
+        "x0": 1600,
+        "y0": 720,
+        "x1": 1920,
+        "y1": 1080
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 18077,
+      "totalPixelCount": 115200,
+      "p": 0.15691840277777777,
+      "freq": 323.56614583333334,
+      "pan": 0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 1,
+      "scanIndex": 19,
+      "cellBoundsRoi": {
+        "x0": 0,
+        "y0": 1080,
+        "x1": 320,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 243,
+      "totalPixelCount": 115200,
+      "p": 0.002109375,
+      "freq": 221.3921875,
+      "pan": -0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 2,
+      "scanIndex": 20,
+      "cellBoundsRoi": {
+        "x0": 320,
+        "y0": 1080,
+        "x1": 640,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 6501,
+      "totalPixelCount": 115200,
+      "p": 0.05643229166666667,
+      "freq": 257.2453125,
+      "pan": -0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 3,
+      "scanIndex": 21,
+      "cellBoundsRoi": {
+        "x0": 640,
+        "y0": 1080,
+        "x1": 960,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 21529,
+      "totalPixelCount": 115200,
+      "p": 0.18688368055555554,
+      "freq": 343.3432291666667,
+      "pan": -0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 4,
+      "scanIndex": 22,
+      "cellBoundsRoi": {
+        "x0": 960,
+        "y0": 1080,
+        "x1": 1280,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 19064,
+      "totalPixelCount": 115200,
+      "p": 0.1654861111111111,
+      "freq": 329.2208333333333,
+      "pan": 0.15,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 5,
+      "scanIndex": 23,
+      "cellBoundsRoi": {
+        "x0": 1280,
+        "y0": 1080,
+        "x1": 1600,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 52099,
+      "totalPixelCount": 115200,
+      "p": 0.4522482638888889,
+      "freq": 518.4838541666667,
+      "pan": 0.45,
+      "toneMs": 180,
+      "gapMs": 40
+    },
+    {
+      "mappingVersion": "EP-MAP-1.0",
+      "sourceFile": "krasheninnikov_2026-06-30_ROI.png",
+      "displayedDate": "2026-06-30",
+      "frameIndex0Based": 439,
+      "roi": {
+        "x0": 1440,
+        "y0": 360,
+        "x1": 3360,
+        "y1": 1800
+      },
+      "row": 4,
+      "col": 6,
+      "scanIndex": 24,
+      "cellBoundsRoi": {
+        "x0": 1600,
+        "y0": 1080,
+        "x1": 1920,
+        "y1": 1440
+      },
+      "lumaFormula": "Y'=0.2126R+0.7152G+0.0722B",
+      "threshold": 128,
+      "brightPixelCount": 5871,
+      "totalPixelCount": 115200,
+      "p": 0.05096354166666667,
+      "freq": 253.6359375,
+      "pan": 0.75,
+      "toneMs": 180,
+      "gapMs": 40
+    }
+  ],
+  "differences": [
+    {
+      "scanIndex": 1,
+      "row": 1,
+      "col": 1,
+      "deltaP_B_minus_A": 0.008654513888888882,
+      "deltaFrequencyHz_B_minus_A": 5.7119791666666515
+    },
+    {
+      "scanIndex": 2,
+      "row": 1,
+      "col": 2,
+      "deltaP_B_minus_A": 0.028845486111111124,
+      "deltaFrequencyHz_B_minus_A": 19.03802083333335
+    },
+    {
+      "scanIndex": 3,
+      "row": 1,
+      "col": 3,
+      "deltaP_B_minus_A": 0.06013020833333338,
+      "deltaFrequencyHz_B_minus_A": 39.68593750000002
+    },
+    {
+      "scanIndex": 4,
+      "row": 1,
+      "col": 4,
+      "deltaP_B_minus_A": 0.041753472222222254,
+      "deltaFrequencyHz_B_minus_A": 27.55729166666663
+    },
+    {
+      "scanIndex": 5,
+      "row": 1,
+      "col": 5,
+      "deltaP_B_minus_A": 0.020529513888888906,
+      "deltaFrequencyHz_B_minus_A": 13.549479166666742
+    },
+    {
+      "scanIndex": 6,
+      "row": 1,
+      "col": 6,
+      "deltaP_B_minus_A": 0.017473958333333345,
+      "deltaFrequencyHz_B_minus_A": 11.532812499999977
+    },
+    {
+      "scanIndex": 7,
+      "row": 2,
+      "col": 1,
+      "deltaP_B_minus_A": -1.7361111111110356e-05,
+      "deltaFrequencyHz_B_minus_A": -0.011458333333337123
+    },
+    {
+      "scanIndex": 8,
+      "row": 2,
+      "col": 2,
+      "deltaP_B_minus_A": -0.0018836805555555447,
+      "deltaFrequencyHz_B_minus_A": -1.2432291666666515
+    },
+    {
+      "scanIndex": 9,
+      "row": 2,
+      "col": 3,
+      "deltaP_B_minus_A": -0.002543402777777759,
+      "deltaFrequencyHz_B_minus_A": -1.6786458333333485
+    },
+    {
+      "scanIndex": 10,
+      "row": 2,
+      "col": 4,
+      "deltaP_B_minus_A": 0.024505208333333334,
+      "deltaFrequencyHz_B_minus_A": 16.173437500000034
+    },
+    {
+      "scanIndex": 11,
+      "row": 2,
+      "col": 5,
+      "deltaP_B_minus_A": 0.019756944444444452,
+      "deltaFrequencyHz_B_minus_A": 13.039583333333326
+    },
+    {
+      "scanIndex": 12,
+      "row": 2,
+      "col": 6,
+      "deltaP_B_minus_A": 0.013237847222222238,
+      "deltaFrequencyHz_B_minus_A": 8.736979166666686
+    },
+    {
+      "scanIndex": 13,
+      "row": 3,
+      "col": 1,
+      "deltaP_B_minus_A": 0.00019965277777777776,
+      "deltaFrequencyHz_B_minus_A": 0.1317708333333485
+    },
+    {
+      "scanIndex": 14,
+      "row": 3,
+      "col": 2,
+      "deltaP_B_minus_A": 0.002630208333333335,
+      "deltaFrequencyHz_B_minus_A": 1.735937500000034
+    },
+    {
+      "scanIndex": 15,
+      "row": 3,
+      "col": 3,
+      "deltaP_B_minus_A": 0.010217013888888904,
+      "deltaFrequencyHz_B_minus_A": 6.743229166666708
+    },
+    {
+      "scanIndex": 16,
+      "row": 3,
+      "col": 4,
+      "deltaP_B_minus_A": 0.013576388888888846,
+      "deltaFrequencyHz_B_minus_A": 8.960416666666617
+    },
+    {
+      "scanIndex": 17,
+      "row": 3,
+      "col": 5,
+      "deltaP_B_minus_A": 0.0130295138888889,
+      "deltaFrequencyHz_B_minus_A": 8.599479166666697
+    },
+    {
+      "scanIndex": 18,
+      "row": 3,
+      "col": 6,
+      "deltaP_B_minus_A": 0.014809027777777761,
+      "deltaFrequencyHz_B_minus_A": 9.773958333333326
+    },
+    {
+      "scanIndex": 19,
+      "row": 4,
+      "col": 1,
+      "deltaP_B_minus_A": 0.0010243055555555556,
+      "deltaFrequencyHz_B_minus_A": 0.6760416666666629
+    },
+    {
+      "scanIndex": 20,
+      "row": 4,
+      "col": 2,
+      "deltaP_B_minus_A": 0.01938368055555556,
+      "deltaFrequencyHz_B_minus_A": 12.793229166666691
+    },
+    {
+      "scanIndex": 21,
+      "row": 4,
+      "col": 3,
+      "deltaP_B_minus_A": 0.016935763888888872,
+      "deltaFrequencyHz_B_minus_A": 11.177604166666697
+    },
+    {
+      "scanIndex": 22,
+      "row": 4,
+      "col": 4,
+      "deltaP_B_minus_A": 0.0051215277777777735,
+      "deltaFrequencyHz_B_minus_A": 3.3802083333333144
+    },
+    {
+      "scanIndex": 23,
+      "row": 4,
+      "col": 5,
+      "deltaP_B_minus_A": 0.014027777777777806,
+      "deltaFrequencyHz_B_minus_A": 9.258333333333383
+    },
+    {
+      "scanIndex": 24,
+      "row": 4,
+      "col": 6,
+      "deltaP_B_minus_A": 0.004817708333333337,
+      "deltaFrequencyHz_B_minus_A": 3.1796875
+    }
+  ]
+}

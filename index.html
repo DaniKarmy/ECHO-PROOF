@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ECHO PROOF — NASA Space Apps 2026</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <section id="landingScreen" class="landing-screen" aria-labelledby="landingTitle">
+      <button id="landingFullscreenToggle" class="fullscreen-button landing-fullscreen-button" type="button" aria-pressed="false">Full screen</button>
+      <header class="landing-hero">
+        <p class="eyebrow">NASA Space Apps Challenge 2026 · The Earth Information Jukebox</p>
+        <h1 id="landingTitle">ECHO PROOF</h1>
+        <p class="landing-lede">Can you hear a lava field evolve?</p>
+        <button id="enterExperience" class="landing-enter primary" type="button">Enter Experience</button>
+        <p class="landing-claim">
+          NASA identifies the evolving bright field in the visualization as lava.<br />
+          ECHO PROOF does not classify lava.<br />
+          It translates fixed visual brightness-density measurements into sound<br class="landing-wide-break" />
+          using the same deterministic rule for both dates.
+        </p>
+        <p class="landing-transfer-note">Then test the same deterministic rule on NASA Night Lights.</p>
+      </header>
+    </section>
+
+    <div id="experienceShell" class="experience-shell" hidden>
+
+    <nav class="app-tabs" aria-label="ECHO PROOF sections">
+      <button id="homeButton" class="home-button" type="button">Home</button>
+      <button class="tab-button active" data-view="listen" aria-selected="true">Krasheninnikov</button>
+      <button class="tab-button" data-view="nightlights" aria-selected="false">Night Lights</button>
+      <button class="tab-button" data-view="receipt" aria-selected="false">Translation Receipt</button>
+      <button class="tab-button" data-view="sources" aria-selected="false">Sources &amp; Boundaries</button>
+      <button id="fullscreenToggle" class="fullscreen-button" type="button" aria-pressed="false">Full screen</button>
+    </nav>
+
+    <section id="view-listen" class="app-view active" data-view-panel="listen">
+    <section class="controls card" aria-label="Audio controls">
+      <div class="controls-row">
+        <div class="primary-controls">
+          <button id="playA">Play Jun 18</button>
+          <button id="playB">Play Jun 30</button>
+          <button id="playMatched" class="primary">Hear the Change — Matched A/B</button>
+          <button id="pause" aria-pressed="false" disabled>Pause</button>
+          <button id="stop" class="danger">Stop</button>
+        </div>
+        <div class="secondary-controls right-controls">
+          <button id="mute" aria-pressed="false">Mute</button>
+          <label>Volume
+            <input id="volume" type="range" min="0" max="1" step="0.01" value="0.65" />
+          </label>
+        </div>
+      </div>
+      <p id="status" class="status">Loading frozen assets…</p>
+    </section>
+
+
+    <section class="compare">
+      <article class="frame card" data-side="A">
+        <div class="frame-heading">
+          <div>
+            <span class="tag">A</span>
+            <h2>NASA visualization frame labelled Jun 18 2026</h2>
+          </div>
+          <p id="metricA" class="metric">—</p>
+        </div>
+        <div class="image-wrap">
+          <img id="imgA" src="assets/krasheninnikov_2026-06-18_ROI.png" alt="Frozen Krasheninnikov ROI for June 18, 2026" />
+          <div id="gridA" class="grid" aria-hidden="true"></div>
+        </div>
+      </article>
+
+      <article class="frame card" data-side="B">
+        <div class="frame-heading">
+          <div>
+            <span class="tag">B</span>
+            <h2>NASA visualization frame labelled Jun 30 2026</h2>
+          </div>
+          <p id="metricB" class="metric">—</p>
+        </div>
+        <div class="image-wrap">
+          <img id="imgB" src="assets/krasheninnikov_2026-06-30_ROI.png" alt="Frozen Krasheninnikov ROI for June 30, 2026" />
+          <div id="gridB" class="grid" aria-hidden="true"></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="story-grid" aria-label="What changed and why it sounds different">
+      <article class="story-card card">
+        <p class="eyebrow">What changed?</p>
+        <h2>The lava field evolved between the two dates.</h2>
+        <p>
+          NASA describes an ongoing, steady eastward-flowing lava field at Krasheninnikov.
+          Across the NISAR time-lapse, lava fills a smaller inner caldera, overflows into a
+          wider crater, and widens into a fan. The Jun 18 and Jun 30 frames capture two
+          moments in that continuing eruption.
+        </p>
+      </article>
+
+      <article class="story-card card">
+        <p class="eyebrow">Why does it sound different?</p>
+        <h2>The same grid measures a different bright-pixel pattern.</h2>
+        <p>
+          In NASA's radar visualization, lava appears lighter because microwaves reflect
+          more brightly than from the surrounding surface. ECHO PROOF applies the same
+          6×4 grid and the same EP-MAP-1.0 rule to both dates: when bright-pixel density
+          changes in a cell, its mapped tone frequency changes too.
+        </p>
+        <p class="story-boundary">
+          ECHO PROOF measures visual brightness density; it does not classify pixels as lava.
+        </p>
+      </article>
+
+      <p class="story-source">
+        Scientific context and visualization:
+        <a href="https://svs.gsfc.nasa.gov/5675" target="_blank" rel="noopener noreferrer">
+          NASA Scientific Visualization Studio · SVS 5675
+        </a>
+      </p>
+    </section>
+
+    </section>
+
+    <section id="view-nightlights" class="app-view" data-view-panel="nightlights">
+
+      <p class="nightlights-contextline"><strong>NASA Black Marble Night Lights</strong> · Global annual averages · 2012 ↔ 2023</p>
+
+      <section class="controls card" aria-label="Night Lights audio controls">
+        <div class="controls-row">
+          <div class="primary-controls">
+            <button id="nlPlayA">Play 2012</button>
+            <button id="nlPlayB">Play 2023</button>
+            <button id="nlPlayMatched" class="primary">Hear the Change — Matched A/B</button>
+            <button id="nlPause" aria-pressed="false" disabled>Pause</button>
+            <button id="nlStop" class="danger">Stop</button>
+          </div>
+          <div class="secondary-controls right-controls">
+            <button id="nlMute" aria-pressed="false">Mute</button>
+            <label>Volume
+              <input id="nlVolume" type="range" min="0" max="1" step="0.01" value="0.65" />
+            </label>
+          </div>
+        </div>
+        <p id="nlStatus" class="status">Loading frozen Night Lights assets…</p>
+      </section>
+
+      <section class="compare nightlights-compare">
+        <article class="frame card" data-side="NLA">
+          <div class="frame-heading">
+            <div>
+              <span class="tag">A</span>
+              <h2>NASA Night Lights annual average · 2012</h2>
+            </div>
+            <p id="nlMetricA" class="metric">—</p>
+          </div>
+          <div class="image-wrap nightlights-image-wrap">
+            <img id="nlImgA" src="assets/nightlights_only_lights_2012_transfer_1920x1080.png" alt="NASA Black Marble night-lights annual average visualization for 2012" />
+            <div id="nlGridA" class="grid" aria-hidden="true"></div>
+          </div>
+        </article>
+
+        <article class="frame card" data-side="NLB">
+          <div class="frame-heading">
+            <div>
+              <span class="tag">B</span>
+              <h2>NASA Night Lights annual average · 2023</h2>
+            </div>
+            <p id="nlMetricB" class="metric">—</p>
+          </div>
+          <div class="image-wrap nightlights-image-wrap">
+            <img id="nlImgB" src="assets/nightlights_only_lights_2023_transfer_1920x1080.png" alt="NASA Black Marble night-lights annual average visualization for 2023" />
+            <div id="nlGridB" class="grid" aria-hidden="true"></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="nightlights-evidence card" aria-label="Night Lights transfer evidence">
+        <div class="receipt-head">
+          <div>
+            <p class="eyebrow">Transfer receipt</p>
+            <h2>EP-MAP-1.0 / NL-TRANSFER-1</h2>
+          </div>
+          <p id="nlCurrentCell">No cell playing.</p>
+        </div>
+        <div class="nightlights-stats">
+          <span>24 cells</span>
+          <span id="nlChangedCells">changed cells —</span>
+          <span id="nlMeanDelta">mean |Δf| —</span>
+          <span id="nlMaxDelta">max |Δf| —</span>
+          <span>perceptual result: Matched A/B PASS · sequential weak</span>
+        </div>
+      </section>
+
+      <section class="story-grid nightlights-story" aria-label="Night Lights interpretation boundaries">
+        <article class="story-card card">
+          <p class="eyebrow">What changed?</p>
+          <h2>The global night-lights pattern changed between the 2012 and 2023 annual averages.</h2>
+          <p>
+            The same 6×4 grid compares two NASA night-lights visualizations using the same
+            deterministic brightness-density-to-frequency rule.
+          </p>
+        </article>
+
+        <article class="story-card card">
+          <p class="eyebrow">Why does it sound different?</p>
+          <h2>The same grid measures a different bright-pixel pattern.</h2>
+          <p>
+            When bright-pixel density changes in a cell, its mapped tone frequency changes too.
+            Matched A/B places the same 2012 and 2023 cell back-to-back so small local differences
+            are easier to hear.
+          </p>
+          <p class="story-boundary">
+            ECHO PROOF measures visual brightness density. It does not infer population, economic
+            activity, urban growth, physical radiance, or the cause of a lighting change.
+          </p>
+        </article>
+
+      </section>
+
+      <section class="nightlights-intro card">
+        <p class="eyebrow">Method transfer · NASA Night Lights</p>
+        <div class="nightlights-intro-row">
+          <div>
+            <h2>Same deterministic rule. Different Earth-observation story.</h2>
+            <p>
+              This secondary evidence applies the frozen EP-MAP-1.0 / NL-TRANSFER-1 rule to
+              NASA Black Marble global annual-average visualizations for 2012 and 2023.
+              No post-hoc tuning.
+            </p>
+          </div>
+          <p class="nightlights-role">Secondary method-transfer evidence · Krasheninnikov remains PRIMARY.</p>
+        </div>
+        <p class="nightlights-sources">
+          Sources: <a href="https://svs.gsfc.nasa.gov/5313" target="_blank" rel="noopener noreferrer">NASA SVS 5313</a> (EIC reference)
+          · <a href="https://svs.gsfc.nasa.gov/5276" target="_blank" rel="noopener noreferrer">NASA SVS 5276</a> (annual-series provenance)
+          · Black Marble / Suomi NPP VIIRS
+        </p>
+      </section>
+    </section>
+
+    <section id="view-receipt" class="app-view" data-view-panel="receipt">
+      <section class="card receipt-card">
+        <div class="receipt-page-head">
+          <div>
+            <p class="eyebrow">Translation Receipt</p>
+            <h2>Two auditable comparisons · one deterministic mapping rule</h2>
+          </div>
+        </div>
+
+        <div class="receipt-switch" role="tablist" aria-label="Translation Receipt dataset">
+          <button class="receipt-mode-button active" type="button" role="tab" aria-selected="true" data-receipt-mode="primary">Krasheninnikov · PRIMARY</button>
+          <button class="receipt-mode-button" type="button" role="tab" aria-selected="false" data-receipt-mode="nightlights">Night Lights · METHOD TRANSFER</button>
+        </div>
+
+        <section class="receipt-panel active" data-receipt-panel="primary">
+          <div class="receipt-head">
+            <div>
+              <p class="eyebrow">Primary translation receipt</p>
+              <h2>Krasheninnikov · NASA SVS 5675</h2>
+              <p class="receipt-subtitle">Jun 18 2026 ↔ Jun 30 2026 · EP-MAP-1.0</p>
+            </div>
+            <p id="currentCell">No cell playing.</p>
+          </div>
+
+          <div class="formula">
+            <code>Y′ = 0.2126R + 0.7152G + 0.0722B</code>
+            <span>bright pixel if Y′ ≥ 128</span>
+            <span>p = bright pixels / cell pixels</span>
+            <span>frequency = 220 + 660 × p Hz</span>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Cell</th>
+                  <th>Grid</th>
+                  <th>p · Jun 18</th>
+                  <th>p · Jun 30</th>
+                  <th>Hz · Jun 18</th>
+                  <th>Hz · Jun 30</th>
+                  <th>Δ Hz</th>
+                  <th>Pan</th>
+                </tr>
+              </thead>
+              <tbody id="receiptBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="receipt-panel" data-receipt-panel="nightlights" hidden>
+          <div class="receipt-head">
+            <div>
+              <p class="eyebrow">Method-transfer translation receipt</p>
+              <h2>NASA Black Marble Night Lights</h2>
+              <p class="receipt-subtitle">2012 annual average ↔ 2023 annual average · EP-MAP-1.0 / NL-TRANSFER-1</p>
+            </div>
+            <p id="nlReceiptCurrentCell">No cell playing.</p>
+          </div>
+
+          <div class="formula">
+            <code>Y′ = 0.2126R + 0.7152G + 0.0722B</code>
+            <span>bright pixel if Y′ ≥ 128</span>
+            <span>p = bright pixels / cell pixels</span>
+            <span>frequency = 220 + 660 × p Hz</span>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Cell</th>
+                  <th>Grid</th>
+                  <th>p · 2012</th>
+                  <th>p · 2023</th>
+                  <th>Hz · 2012</th>
+                  <th>Hz · 2023</th>
+                  <th>Δ Hz</th>
+                  <th>Pan</th>
+                </tr>
+              </thead>
+              <tbody id="nlReceiptBody"></tbody>
+            </table>
+          </div>
+          <p class="receipt-note">Night Lights is secondary method-transfer evidence. Matched A/B perceptual result: PASS; full sequential A-vs-B remains weak.</p>
+        </section>
+      </section>
+    </section>
+
+    <section id="view-sources" class="app-view" data-view-panel="sources">
+      <section class="card sources">
+        <p class="eyebrow">Sources &amp; boundaries</p>
+        <h2>One primary story · one method-transfer test</h2>
+
+        <div class="source-boundary-block">
+          <p class="eyebrow">PRIMARY · Krasheninnikov</p>
+          <h2>NASA SVS 5675 · NISAR</h2>
+          <p>
+            Frozen representative visualization frames: 426 (Jun 18 label) and 439 (Jun 30 label),
+            cropped with the same fixed ROI: x 1440–3360, y 360–1800.
+          </p>
+          <p class="small">
+            NASA provides the scientific interpretation of the evolving bright field as lava.
+            ECHO PROOF does not detect or classify lava; it measures visual brightness density and
+            maps that measurement to sound using EP-MAP-1.0.
+          </p>
+        </div>
+
+        <div class="source-boundary-block">
+          <p class="eyebrow">METHOD TRANSFER · Night Lights</p>
+          <h2>NASA SVS 5313 · Black Marble</h2>
+          <p>
+            Challenge-Resources / EIC reference: NASA SVS 5313. Annual-series provenance: NASA SVS 5276,
+            Black Marble / Suomi NPP VIIRS. The comparison uses the 2012 and 2023 global annual-average
+            visualizations with the same deterministic rule and no post-hoc tuning.
+          </p>
+          <p class="small">
+            This is secondary method-transfer evidence, not a second hero project. ECHO PROOF does not
+            infer population, economic activity, urban growth, physical radiance, or the cause of a
+            lighting change.
+          </p>
+        </div>
+
+        <p class="small sources-rule">
+          Mapping: EP-MAP-1.0 · Night Lights transfer identifier: NL-TRANSFER-1. The same disclosed
+          brightness-density-to-frequency principle is used across both stories.
+        </p>
+      </section>
+    </section>
+    </div>
+  </main>
+
+  <canvas id="measureA" width="1920" height="1440" hidden></canvas>
+  <canvas id="measureB" width="1920" height="1440" hidden></canvas>
+  <canvas id="nlMeasureA" width="1920" height="1080" hidden></canvas>
+  <canvas id="nlMeasureB" width="1920" height="1080" hidden></canvas>
+  <script src="app.js"></script>
+  <script src="nightlights.js"></script>
+  <script src="receipt-switch.js"></script>
+  <script src="ui-nav.js"></script>
+  <script src="fullscreen.js"></script>
+</body>
+</html>
